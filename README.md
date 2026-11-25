@@ -74,4 +74,6 @@ Hyperledger Fabric 2.5.16 (two organizations, one peer each, one orderer, CouchD
 
 ## License
 
-Released under the MIT License; see [LICENSE](LICENSE).
+The code is released under the MIT License; see [LICENSE](LICENSE).
+
+The data in `dataset/` and `experiments/results/` are released under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
