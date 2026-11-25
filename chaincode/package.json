@@ -1,0 +1,18 @@
+{
+  "name": "traceability",
+  "version": "1.0.0",
+  "description": "Traceability chaincode (EPCIS) - JS implementation for research",
+  "main": "index.js",
+  "scripts": {
+    "test:sanitary": "node test/sanitary.test.js",
+    "test:taxonomy": "node test/taxonomy.test.js",
+    "test:logistics": "node test/logisticsDiversion.test.js",
+    "test:equivalence": "node test/equivalence.test.js",
+    "test": "npm run test:sanitary && npm run test:taxonomy && npm run test:logistics && npm run test:equivalence",
+    "start": "fabric-chaincode-node start"
+  },
+  "dependencies": {
+    "fabric-contract-api": "2.5.8",
+    "fabric-shim": "2.5.8"
+  }
+}

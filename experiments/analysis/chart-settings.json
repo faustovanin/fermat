@@ -1,0 +1,66 @@
+{
+  "font_family": "DejaVu Sans",
+  "font_size": 10,
+  "title_size": 11,
+  "dpi": 300,
+  "colors": [
+    "#0072B2",
+    "#E69F00",
+    "#009E73"
+  ],
+  "titles": {
+    "01-performance": "Performance across dataset sizes",
+    "02-latency-distributions": "Accepted and rejected request latency",
+    "03-confusion-matrices": "Complete-history classification",
+    "04-anomaly-targets": "Expected anomaly targets and observed detections",
+    "05-product-coverage": "Completed item histories by product code",
+    "06-product-latency": "Accepted-request latency by product code",
+    "07-route-latency": "Accepted-request latency along the overseas route",
+    "08-process-resources": "Worker memory and CPU during measured submissions",
+    "09-fabric-resources": "Fabric container resources: 5,000-event capture"
+  },
+  "labels": {
+    "volume": "Measured events",
+    "latency": "Request-to-adapter-return latency (ms)",
+    "time": "Elapsed measurement time (minutes)",
+    "product": "Source product code"
+  },
+  "figure_sizes": {
+    "01-performance": [
+      8,
+      3.5
+    ],
+    "02-latency-distributions": [
+      8,
+      3.5
+    ],
+    "03-confusion-matrices": [
+      9,
+      3.3
+    ],
+    "04-anomaly-targets": [
+      7,
+      3.5
+    ],
+    "05-product-coverage": [
+      9,
+      4
+    ],
+    "06-product-latency": [
+      9,
+      4
+    ],
+    "07-route-latency": [
+      9,
+      4
+    ],
+    "08-process-resources": [
+      9,
+      7
+    ],
+    "09-fabric-resources": [
+      9,
+      5.5
+    ]
+  }
+}

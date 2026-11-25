@@ -1,0 +1,35 @@
+{
+  "mode": "Fabric capture",
+  "base": {
+    "expected_events": 100,
+    "recorded_events": 100,
+    "missing_events": [],
+    "outcomes": {
+      "accepted": 100
+    },
+    "targets": 0,
+    "expected_target_matches": 0,
+    "negative_control_alerts": 0,
+    "halting_records": 0,
+    "reference_mismatches": [],
+    "evaluable": true,
+    "passed": true,
+    "scope": "Connector evidence only. Infrastructure and unexplained failures are not rule detections."
+  },
+  "audit_issues": [],
+  "timing_error_count": 0,
+  "resource_issues": [],
+  "passed": true,
+  "audited_events": 100,
+  "audited_products": 10,
+  "product_groups": 10,
+  "latency_group_count": 18,
+  "heap_trends": [
+    {
+      "pid": 45857,
+      "samples": 165,
+      "heap_slope_MiB_per_second": 0.007135067906470882,
+      "method": "OLS of sampled heap after first 20% of measurement samples; includes GC fluctuations, not proof of retained-memory leak"
+    }
+  ]
+}

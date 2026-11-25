@@ -1,0 +1,5 @@
+mechanism,planned,detected,observed_not_detected,untested
+jurisdiction,1,1,0,0
+many_suppliers,1,1,0,0
+out_of_order,1,1,0,0
+timestamp_mismatch,1,1,0,0

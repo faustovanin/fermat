@@ -1,0 +1,231 @@
+{
+  "label_schema": "euus-v1",
+  "label_unit": "transaction",
+  "transactions": 7,
+  "injected_transactions": 6,
+  "diversion_anomaly_transactions": 4,
+  "events_sha256": "9fc928c0825eb3249895c265f73f427c1867b5204fbfaa5f3b6aec8f0c0dd825",
+  "counts_by_type": {
+    "none": 1,
+    "recalled": 1,
+    "blocked": 1,
+    "out_of_order": 1,
+    "timestamp_mismatch": 1,
+    "jurisdiction": 1,
+    "many_suppliers": 1
+  },
+  "records": [
+    {
+      "transaction_id": "euus-row-5|00591034905",
+      "drug_code": "00591034905",
+      "injected": false,
+      "anomaly_type": "none",
+      "diversion_anomaly": false,
+      "history_event_ids": [
+        "urn:uuid:3d8fe29c6e2418409d9a63fd5ac66148",
+        "urn:uuid:abbab72dc49475a9fb1d16225113df8e",
+        "urn:uuid:c0165bd30f9adaccd5726fabf9a6d673",
+        "urn:uuid:bc3502730bd9127a66c73f4b461a24b4",
+        "urn:uuid:a9f8e99868a268eba9f0d47af339ead0",
+        "urn:uuid:5a0c0498cbbd114d2f34f51af4496e46",
+        "urn:uuid:8edd2f83a050ddf3f412998de05c7de5",
+        "urn:uuid:4d8209cf6bdd83b1b20c973b03a4d960",
+        "urn:uuid:7e63423a2d6842ed84cc7379a93582c4",
+        "urn:uuid:e904b9469c17b7fbc155382e1660f40f"
+      ],
+      "history_epcs": [
+        "urn:epc:id:sgtin:0614141.094827.165094649805"
+      ],
+      "target_event_ids": [],
+      "expected_rule_code": null,
+      "status_control_event_ids": [],
+      "coverage_status": "clean_control"
+    },
+    {
+      "transaction_id": "euus-row-196|00406037516",
+      "drug_code": "00406037516",
+      "injected": true,
+      "anomaly_type": "recalled",
+      "diversion_anomaly": false,
+      "history_event_ids": [
+        "urn:uuid:6fc4c21ac9f1f16899d559678c23a1e6",
+        "urn:uuid:c713b6f6f4e7c0ba550748095db4f396",
+        "urn:uuid:19e3be1c892ec40fdb93190937bf36ef",
+        "urn:uuid:f2a07a9f0a0d18a6d02d1f72c56bf5fd",
+        "urn:uuid:b11e22b1bf9d8a6dbd0c032b6c740bab",
+        "urn:uuid:12ac162f21aee39f03e6067d5fd27d14",
+        "urn:uuid:7ae48a8d529c350dd45989c2db8536e7",
+        "urn:uuid:4308d8a012200089ee80d377f3ba2e79",
+        "urn:uuid:5bd42d788143ce4254aea84a6bbe0b70",
+        "urn:uuid:6dde1690d13c7bf6fac77e1047f1b024"
+      ],
+      "history_epcs": [
+        "urn:epc:id:sgtin:0614141.423215.155825787549"
+      ],
+      "target_event_ids": [],
+      "expected_rule_code": null,
+      "status_control_event_ids": [
+        "urn:uuid:6fc4c21ac9f1f16899d559678c23a1e6",
+        "urn:uuid:c713b6f6f4e7c0ba550748095db4f396",
+        "urn:uuid:19e3be1c892ec40fdb93190937bf36ef",
+        "urn:uuid:f2a07a9f0a0d18a6d02d1f72c56bf5fd",
+        "urn:uuid:b11e22b1bf9d8a6dbd0c032b6c740bab",
+        "urn:uuid:12ac162f21aee39f03e6067d5fd27d14",
+        "urn:uuid:7ae48a8d529c350dd45989c2db8536e7",
+        "urn:uuid:4308d8a012200089ee80d377f3ba2e79",
+        "urn:uuid:5bd42d788143ce4254aea84a6bbe0b70",
+        "urn:uuid:6dde1690d13c7bf6fac77e1047f1b024"
+      ],
+      "coverage_status": "negative_control"
+    },
+    {
+      "transaction_id": "euus-row-1106|00406036001",
+      "drug_code": "00406036001",
+      "injected": true,
+      "anomaly_type": "blocked",
+      "diversion_anomaly": false,
+      "history_event_ids": [
+        "urn:uuid:9f556a4eb7a2e860221006d024469946",
+        "urn:uuid:6b219d97f83cf933b110f57335798522",
+        "urn:uuid:b4cdf36310bec57577096309ca8a1886",
+        "urn:uuid:73c5718eba66df4164e2a7b0cb93e5da",
+        "urn:uuid:73fc8a04ce305d3057e0ee23e0279c97",
+        "urn:uuid:15d23acee18a33f9c530f67dbcfd7169",
+        "urn:uuid:6ff496d71e38cd219f2bbd9c6542ad15",
+        "urn:uuid:a1575d4fa326eba26ce28ecb09ce8365",
+        "urn:uuid:edf49b9e8838beb1f9ea4b88d438d338",
+        "urn:uuid:3abc8e001228fba310504e646ed00632"
+      ],
+      "history_epcs": [
+        "urn:epc:id:sgtin:0614141.803709.859673543216"
+      ],
+      "target_event_ids": [],
+      "expected_rule_code": null,
+      "status_control_event_ids": [
+        "urn:uuid:9f556a4eb7a2e860221006d024469946",
+        "urn:uuid:6b219d97f83cf933b110f57335798522",
+        "urn:uuid:b4cdf36310bec57577096309ca8a1886",
+        "urn:uuid:73c5718eba66df4164e2a7b0cb93e5da",
+        "urn:uuid:73fc8a04ce305d3057e0ee23e0279c97",
+        "urn:uuid:15d23acee18a33f9c530f67dbcfd7169",
+        "urn:uuid:6ff496d71e38cd219f2bbd9c6542ad15",
+        "urn:uuid:a1575d4fa326eba26ce28ecb09ce8365",
+        "urn:uuid:edf49b9e8838beb1f9ea4b88d438d338",
+        "urn:uuid:3abc8e001228fba310504e646ed00632"
+      ],
+      "coverage_status": "negative_control"
+    },
+    {
+      "transaction_id": "euus-row-682|00591085301",
+      "drug_code": "00591085301",
+      "injected": true,
+      "anomaly_type": "out_of_order",
+      "diversion_anomaly": true,
+      "history_event_ids": [
+        "urn:uuid:f0cbf121efb961ec3142a91a8d558933",
+        "urn:uuid:cd58b1def130d66eea2704c2cb277861",
+        "urn:uuid:4a8e68175313c405d093646edb465978",
+        "urn:uuid:b1802074b8b3b735abd38a8de0648f85",
+        "urn:uuid:149a3f91c8e5d26260165f2f14297e5f",
+        "urn:uuid:56f76aed745972fdd4f75b6fc7c234c1",
+        "urn:uuid:433083d29844d25b368d89856af38e36",
+        "urn:uuid:d10a31553ed7d2c55d4900c65de74fa5",
+        "urn:uuid:6cb3d9b8b92195170debb47c08004cbd",
+        "urn:uuid:b50400c75d64072b26dc1aabf3a4fa1a"
+      ],
+      "history_epcs": [
+        "urn:epc:id:sgtin:0614141.127897.147480588256"
+      ],
+      "target_event_ids": [
+        "urn:uuid:d10a31553ed7d2c55d4900c65de74fa5"
+      ],
+      "expected_rule_code": "LOGISTICS_DIVERSION_SEQUENCE",
+      "status_control_event_ids": [],
+      "coverage_status": "mapped"
+    },
+    {
+      "transaction_id": "euus-row-471|58177088107",
+      "drug_code": "58177088107",
+      "injected": true,
+      "anomaly_type": "timestamp_mismatch",
+      "diversion_anomaly": true,
+      "history_event_ids": [
+        "urn:uuid:cf50cf84762f7abd511a1ed1d3791f59",
+        "urn:uuid:9045783ce560e3597f5059e501df1f4e",
+        "urn:uuid:f74a2ae9ce57ac1ac47211dc1c796399",
+        "urn:uuid:85e5165d21b7b35292eb7fbc8d9e58ff",
+        "urn:uuid:9bfe88daac98406744941cf736668ce5",
+        "urn:uuid:3047db47eedaeb103ff777e3e7fac9f2",
+        "urn:uuid:25de4be463ba700556f16644801a0fb8",
+        "urn:uuid:87676ac9a1fab270562fcb48940e2162",
+        "urn:uuid:eece9154c6b21b764d6c164f82beb0cc",
+        "urn:uuid:b9bd63f85c8d2120a0d7955a1cd4d6f9"
+      ],
+      "history_epcs": [
+        "urn:epc:id:sgtin:0614141.428649.104687567569"
+      ],
+      "target_event_ids": [
+        "urn:uuid:87676ac9a1fab270562fcb48940e2162"
+      ],
+      "expected_rule_code": "LOGISTICS_DIVERSION_TIMING",
+      "status_control_event_ids": [],
+      "coverage_status": "mapped"
+    },
+    {
+      "transaction_id": "euus-row-979|00406036701",
+      "drug_code": "00406036701",
+      "injected": true,
+      "anomaly_type": "jurisdiction",
+      "diversion_anomaly": true,
+      "history_event_ids": [
+        "urn:uuid:b32778596386e79e14927ec71eba66e3",
+        "urn:uuid:f56b999883828ab1046ca2db78b53362",
+        "urn:uuid:21076d90b76c9294d121e16725d5fc62",
+        "urn:uuid:60653a8640ab2bb74b8538d40a56442a",
+        "urn:uuid:27c438f4a87d253185f7c5b8e7f70610",
+        "urn:uuid:2dba0cb6328bae48364b03da48709bc5",
+        "urn:uuid:25738ffd59ac5a68240fb694eed56143",
+        "urn:uuid:ec8d825c9f5d42658f52081f0725f842",
+        "urn:uuid:22481378a6dc1f8c4787c2ec3fab5948",
+        "urn:uuid:9645186b550e2719aa36d02c8fe2ebe4"
+      ],
+      "history_epcs": [
+        "urn:epc:id:sgtin:0614141.325296.883032010738"
+      ],
+      "target_event_ids": [
+        "urn:uuid:25738ffd59ac5a68240fb694eed56143"
+      ],
+      "expected_rule_code": "LOGISTICS_DIVERSION_JURISDICTION",
+      "status_control_event_ids": [],
+      "coverage_status": "mapped"
+    },
+    {
+      "transaction_id": "euus-row-585|58177087707",
+      "drug_code": "58177087707",
+      "injected": true,
+      "anomaly_type": "many_suppliers",
+      "diversion_anomaly": true,
+      "history_event_ids": [
+        "urn:uuid:72fe9ac7b9e81839505ad4c1156d8c35",
+        "urn:uuid:c5bd1c896da2ebbc926f90fef9c48ad0",
+        "urn:uuid:c20450a8f4d3ed3da5bf064194a03a73",
+        "urn:uuid:e6db61ad6bdac09e9e79f40589ab60ef",
+        "urn:uuid:c861f305161f48b6ffd34327d012d2f4",
+        "urn:uuid:f33fcbc98d1745cc6a0b622def30e2db",
+        "urn:uuid:c3e4e3199762e2df70d65e37035baf89",
+        "urn:uuid:f6d4360db9247771dde790aa591005f1",
+        "urn:uuid:99d808bbefbfedb8d16f265e50ae803c",
+        "urn:uuid:806379807da74d11e3b8822e5322ab66"
+      ],
+      "history_epcs": [
+        "urn:epc:id:sgtin:0614141.127776.168955872488"
+      ],
+      "target_event_ids": [
+        "urn:uuid:f6d4360db9247771dde790aa591005f1"
+      ],
+      "expected_rule_code": "SUPPLY_BASE_COMPLEXITY",
+      "status_control_event_ids": [],
+      "coverage_status": "mapped"
+    }
+  ]
+}

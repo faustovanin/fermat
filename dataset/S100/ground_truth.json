@@ -1,0 +1,273 @@
+{
+  "label_schema": "euus-v1",
+  "label_unit": "transaction",
+  "transactions": 10,
+  "injected_transactions": 0,
+  "diversion_anomaly_transactions": 0,
+  "events_sha256": "904cc8bd6f347d71357b4e8082ba6c7ef4199f0e6aecd819a04d5e676c50e1fa",
+  "counts_by_type": {
+    "none": 10
+  },
+  "records": [
+    {
+      "transaction_id": "euus-row-5|00591034905",
+      "drug_code": "00591034905",
+      "injected": false,
+      "anomaly_type": "none",
+      "diversion_anomaly": false,
+      "history_event_ids": [
+        "urn:uuid:3d8fe29c6e2418409d9a63fd5ac66148",
+        "urn:uuid:abbab72dc49475a9fb1d16225113df8e",
+        "urn:uuid:c0165bd30f9adaccd5726fabf9a6d673",
+        "urn:uuid:bc3502730bd9127a66c73f4b461a24b4",
+        "urn:uuid:a9f8e99868a268eba9f0d47af339ead0",
+        "urn:uuid:5a0c0498cbbd114d2f34f51af4496e46",
+        "urn:uuid:8edd2f83a050ddf3f412998de05c7de5",
+        "urn:uuid:4d8209cf6bdd83b1b20c973b03a4d960",
+        "urn:uuid:7e63423a2d6842ed84cc7379a93582c4",
+        "urn:uuid:e904b9469c17b7fbc155382e1660f40f"
+      ],
+      "history_epcs": [
+        "urn:epc:id:sgtin:0614141.094827.165094649805"
+      ],
+      "target_event_ids": [],
+      "expected_rule_code": null,
+      "status_control_event_ids": [],
+      "coverage_status": "clean_control"
+    },
+    {
+      "transaction_id": "euus-row-196|00406037516",
+      "drug_code": "00406037516",
+      "injected": false,
+      "anomaly_type": "none",
+      "diversion_anomaly": false,
+      "history_event_ids": [
+        "urn:uuid:6fc4c21ac9f1f16899d559678c23a1e6",
+        "urn:uuid:c713b6f6f4e7c0ba550748095db4f396",
+        "urn:uuid:19e3be1c892ec40fdb93190937bf36ef",
+        "urn:uuid:f2a07a9f0a0d18a6d02d1f72c56bf5fd",
+        "urn:uuid:b11e22b1bf9d8a6dbd0c032b6c740bab",
+        "urn:uuid:12ac162f21aee39f03e6067d5fd27d14",
+        "urn:uuid:7ae48a8d529c350dd45989c2db8536e7",
+        "urn:uuid:4308d8a012200089ee80d377f3ba2e79",
+        "urn:uuid:5bd42d788143ce4254aea84a6bbe0b70",
+        "urn:uuid:6dde1690d13c7bf6fac77e1047f1b024"
+      ],
+      "history_epcs": [
+        "urn:epc:id:sgtin:0614141.423215.155825787549"
+      ],
+      "target_event_ids": [],
+      "expected_rule_code": null,
+      "status_control_event_ids": [],
+      "coverage_status": "clean_control"
+    },
+    {
+      "transaction_id": "euus-row-1106|00406036001",
+      "drug_code": "00406036001",
+      "injected": false,
+      "anomaly_type": "none",
+      "diversion_anomaly": false,
+      "history_event_ids": [
+        "urn:uuid:9f556a4eb7a2e860221006d024469946",
+        "urn:uuid:6b219d97f83cf933b110f57335798522",
+        "urn:uuid:b4cdf36310bec57577096309ca8a1886",
+        "urn:uuid:73c5718eba66df4164e2a7b0cb93e5da",
+        "urn:uuid:73fc8a04ce305d3057e0ee23e0279c97",
+        "urn:uuid:15d23acee18a33f9c530f67dbcfd7169",
+        "urn:uuid:6ff496d71e38cd219f2bbd9c6542ad15",
+        "urn:uuid:a1575d4fa326eba26ce28ecb09ce8365",
+        "urn:uuid:edf49b9e8838beb1f9ea4b88d438d338",
+        "urn:uuid:3abc8e001228fba310504e646ed00632"
+      ],
+      "history_epcs": [
+        "urn:epc:id:sgtin:0614141.803709.859673543216"
+      ],
+      "target_event_ids": [],
+      "expected_rule_code": null,
+      "status_control_event_ids": [],
+      "coverage_status": "clean_control"
+    },
+    {
+      "transaction_id": "euus-row-682|00591085301",
+      "drug_code": "00591085301",
+      "injected": false,
+      "anomaly_type": "none",
+      "diversion_anomaly": false,
+      "history_event_ids": [
+        "urn:uuid:f0cbf121efb961ec3142a91a8d558933",
+        "urn:uuid:cd58b1def130d66eea2704c2cb277861",
+        "urn:uuid:4a8e68175313c405d093646edb465978",
+        "urn:uuid:b1802074b8b3b735abd38a8de0648f85",
+        "urn:uuid:149a3f91c8e5d26260165f2f14297e5f",
+        "urn:uuid:56f76aed745972fdd4f75b6fc7c234c1",
+        "urn:uuid:433083d29844d25b368d89856af38e36",
+        "urn:uuid:d10a31553ed7d2c55d4900c65de74fa5",
+        "urn:uuid:6cb3d9b8b92195170debb47c08004cbd",
+        "urn:uuid:b50400c75d64072b26dc1aabf3a4fa1a"
+      ],
+      "history_epcs": [
+        "urn:epc:id:sgtin:0614141.127897.147480588256"
+      ],
+      "target_event_ids": [],
+      "expected_rule_code": null,
+      "status_control_event_ids": [],
+      "coverage_status": "clean_control"
+    },
+    {
+      "transaction_id": "euus-row-471|58177088107",
+      "drug_code": "58177088107",
+      "injected": false,
+      "anomaly_type": "none",
+      "diversion_anomaly": false,
+      "history_event_ids": [
+        "urn:uuid:cf50cf84762f7abd511a1ed1d3791f59",
+        "urn:uuid:9045783ce560e3597f5059e501df1f4e",
+        "urn:uuid:f74a2ae9ce57ac1ac47211dc1c796399",
+        "urn:uuid:85e5165d21b7b35292eb7fbc8d9e58ff",
+        "urn:uuid:9bfe88daac98406744941cf736668ce5",
+        "urn:uuid:3047db47eedaeb103ff777e3e7fac9f2",
+        "urn:uuid:25de4be463ba700556f16644801a0fb8",
+        "urn:uuid:87676ac9a1fab270562fcb48940e2162",
+        "urn:uuid:eece9154c6b21b764d6c164f82beb0cc",
+        "urn:uuid:b9bd63f85c8d2120a0d7955a1cd4d6f9"
+      ],
+      "history_epcs": [
+        "urn:epc:id:sgtin:0614141.428649.104687567569"
+      ],
+      "target_event_ids": [],
+      "expected_rule_code": null,
+      "status_control_event_ids": [],
+      "coverage_status": "clean_control"
+    },
+    {
+      "transaction_id": "euus-row-979|00406036701",
+      "drug_code": "00406036701",
+      "injected": false,
+      "anomaly_type": "none",
+      "diversion_anomaly": false,
+      "history_event_ids": [
+        "urn:uuid:b32778596386e79e14927ec71eba66e3",
+        "urn:uuid:f56b999883828ab1046ca2db78b53362",
+        "urn:uuid:21076d90b76c9294d121e16725d5fc62",
+        "urn:uuid:60653a8640ab2bb74b8538d40a56442a",
+        "urn:uuid:27c438f4a87d253185f7c5b8e7f70610",
+        "urn:uuid:2dba0cb6328bae48364b03da48709bc5",
+        "urn:uuid:25738ffd59ac5a68240fb694eed56143",
+        "urn:uuid:ec8d825c9f5d42658f52081f0725f842",
+        "urn:uuid:22481378a6dc1f8c4787c2ec3fab5948",
+        "urn:uuid:9645186b550e2719aa36d02c8fe2ebe4"
+      ],
+      "history_epcs": [
+        "urn:epc:id:sgtin:0614141.325296.883032010738"
+      ],
+      "target_event_ids": [],
+      "expected_rule_code": null,
+      "status_control_event_ids": [],
+      "coverage_status": "clean_control"
+    },
+    {
+      "transaction_id": "euus-row-585|58177087707",
+      "drug_code": "58177087707",
+      "injected": false,
+      "anomaly_type": "none",
+      "diversion_anomaly": false,
+      "history_event_ids": [
+        "urn:uuid:72fe9ac7b9e81839505ad4c1156d8c35",
+        "urn:uuid:c5bd1c896da2ebbc926f90fef9c48ad0",
+        "urn:uuid:c20450a8f4d3ed3da5bf064194a03a73",
+        "urn:uuid:e6db61ad6bdac09e9e79f40589ab60ef",
+        "urn:uuid:c861f305161f48b6ffd34327d012d2f4",
+        "urn:uuid:f33fcbc98d1745cc6a0b622def30e2db",
+        "urn:uuid:c3e4e3199762e2df70d65e37035baf89",
+        "urn:uuid:f6d4360db9247771dde790aa591005f1",
+        "urn:uuid:99d808bbefbfedb8d16f265e50ae803c",
+        "urn:uuid:806379807da74d11e3b8822e5322ab66"
+      ],
+      "history_epcs": [
+        "urn:epc:id:sgtin:0614141.127776.168955872488"
+      ],
+      "target_event_ids": [],
+      "expected_rule_code": null,
+      "status_control_event_ids": [],
+      "coverage_status": "clean_control"
+    },
+    {
+      "transaction_id": "euus-row-1098|00591054001",
+      "drug_code": "00591054001",
+      "injected": false,
+      "anomaly_type": "none",
+      "diversion_anomaly": false,
+      "history_event_ids": [
+        "urn:uuid:7062b3af4a14cb5fe9ac3723289b7e01",
+        "urn:uuid:b89d65383fa01eea95edbecf7ace5dd8",
+        "urn:uuid:0f0fe09a5de494cafe6ada3f66c4695c",
+        "urn:uuid:8b81640aee8882c87add2e4c3d9ab2cc",
+        "urn:uuid:f3b68707a25c33527d34fd089148d0fb",
+        "urn:uuid:d82612da053396dee3306c2311ac2dbe",
+        "urn:uuid:1d5f68b7327cd9b5a7ca93da97c3dd45",
+        "urn:uuid:16dd53661074f10440c2267e36494565",
+        "urn:uuid:46edbbc23efd6479423273aa85cc0fa2",
+        "urn:uuid:803179fca4cd421a624e58486038c9a6"
+      ],
+      "history_epcs": [
+        "urn:epc:id:sgtin:0614141.758438.168820116575"
+      ],
+      "target_event_ids": [],
+      "expected_rule_code": null,
+      "status_control_event_ids": [],
+      "coverage_status": "clean_control"
+    },
+    {
+      "transaction_id": "euus-row-1289|00406036101",
+      "drug_code": "00406036101",
+      "injected": false,
+      "anomaly_type": "none",
+      "diversion_anomaly": false,
+      "history_event_ids": [
+        "urn:uuid:4a6efc1afd438e1b1ce89722533c40ff",
+        "urn:uuid:ac0307b4f1dd46e11879a0af56e41382",
+        "urn:uuid:bf02b0f43db1b1660f38afa3b8389722",
+        "urn:uuid:fdb400377f2966102ea196c991c14883",
+        "urn:uuid:5d017fbb9c553eb90098dfce8f1f529b",
+        "urn:uuid:60a48397ab3c6c4233ac6c07c6a0b550",
+        "urn:uuid:39d7bb693ebed5f0dd416495f75c8f42",
+        "urn:uuid:7be5604bd6683b68c11d19b5c1b80203",
+        "urn:uuid:d12b92a6752eed41d3a57a34654e4889",
+        "urn:uuid:08105421c59af127e4274a25c144d4cf"
+      ],
+      "history_epcs": [
+        "urn:epc:id:sgtin:0614141.055635.156544867402"
+      ],
+      "target_event_ids": [],
+      "expected_rule_code": null,
+      "status_control_event_ids": [],
+      "coverage_status": "clean_control"
+    },
+    {
+      "transaction_id": "euus-row-396|00406036301",
+      "drug_code": "00406036301",
+      "injected": false,
+      "anomaly_type": "none",
+      "diversion_anomaly": false,
+      "history_event_ids": [
+        "urn:uuid:a5f041963cf5d52ae0507511a9f9e455",
+        "urn:uuid:d5b96c0a05d2b4624518afb26e9840c4",
+        "urn:uuid:9559b711c0359414aaa07e09e0f90b98",
+        "urn:uuid:b1eec1caa3d1ac5f708e0af945180e38",
+        "urn:uuid:b0d16c594b250427e4543bd5f752b692",
+        "urn:uuid:492e10c78351a6c38ace6eaf1506e29f",
+        "urn:uuid:22052c2dda36ca9dee5e3094e2d51f0f",
+        "urn:uuid:232fcf6bf3852133e305590fce9117a2",
+        "urn:uuid:fa17a08bae6c68c26873f4920cf8ae4f",
+        "urn:uuid:24decae25709e061c18a164aec835ad7"
+      ],
+      "history_epcs": [
+        "urn:epc:id:sgtin:0614141.251295.595161149602"
+      ],
+      "target_event_ids": [],
+      "expected_rule_code": null,
+      "status_control_event_ids": [],
+      "coverage_status": "clean_control"
+    }
+  ]
+}
