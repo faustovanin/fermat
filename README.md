@@ -70,7 +70,13 @@ Hyperledger Fabric 2.5.16 (two organizations, one peer each, one orderer, CouchD
 
 ## Citation
 
-[TO COMPLETE: article reference and DOI]
+To cite this repository (code and data, version 1.0.0):
+
+> FERMAT authors (2026). *FERMAT: Functional Equivalence for Regulatory Medicine Authentication and Traceability* (v1.0.0) [Software and dataset]. Zenodo. https://doi.org/10.5281/zenodo.24523891
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24523891.svg)](https://doi.org/10.5281/zenodo.24523891)
+
+Article reference: [TO COMPLETE after publication]
 
 ## License
 
